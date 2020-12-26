@@ -1,9 +1,9 @@
-# Web Dictionary
+# IoTWatcher Dictionary
 
 ## Installation
 
-* Clone the project: `git clone https://gitlab.com/iotwatcher/ui.git web-dictionary`
-* Init submodules: `cd web-dictionary; git submodule init && git submodule update`
+* Clone the project: `git clone https://gitlab.com/iotwatcher/ui.git iotwatcher-dictionary`
+* Init submodules: `cd iotwatcher-dictionary; git submodule init && git submodule update`
 * Create `docker-compose.override.yml` in the root of the project to set ports, for example:
 ```yaml
 version: "3.3"
