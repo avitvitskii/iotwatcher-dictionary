@@ -35,8 +35,3 @@ services:
     - ./db/initial/schema.sql:/docker-entrypoint-initdb.d/schema.sql
     - ./db/mycustom.cnf:/etc/mysql/conf.d/custom.cnf
     restart: always
-
-  dictionary:
-    image: brendanburns/dictionary-server
-    expose:
-      - 8080
